@@ -2,7 +2,7 @@
 
 When a the frontend is loaded it is given a basic configuration object provided from the Laravel Middleman, this object is assigned to the window and is also exported as a global module. 
 
-```JavaScript
+```js
     let globals = {};
     globals = window.Globals;
 
@@ -25,7 +25,7 @@ Which contains two properties one containg the type of resource we are expecting
 This is then stored on the state while the component responsible for handling the content type is passed back to router.
 
 Which is just a simple switch statement contained in `middleman/resources/js/shiba/router/component-map.js`
-```JavaScript
+```js
 export default (route, type, payload) => {
     switch (type) {
         case 'product':
