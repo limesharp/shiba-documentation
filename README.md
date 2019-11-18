@@ -18,3 +18,8 @@ The frontend is created using Vue and SASS which means we are using a modern fro
 * [Axios](https://github.com/axios/axios) for Promise based HTTP requests.
 * Animation in JS using [Anime.js](https://animejs.com/).
 
+## The backend
+
+## Useful tools
+* GraphQL UI for testing [Download Here](https://electronjs.org/apps/graphiql)
+* Magento 2 GraphQL [Documentation](https://devdocs.magento.com/guides/v2.3/graphql/)

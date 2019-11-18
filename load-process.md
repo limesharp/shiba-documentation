@@ -46,3 +46,4 @@ export default (route, type, payload) => {
 };
 ```
 
+## Resolver 
