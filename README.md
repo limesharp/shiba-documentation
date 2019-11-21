@@ -1,7 +1,7 @@
 # Shiba Commerce
 
 ## Introduction
-Shiba is our headless approach for Magento 2 to make developer more easier for a frontend as you not dealing with the native clunky frontend provided with Magento 2 instead you are given a frontend that is using [Vue.js](https://vuejs.org/)
+Shiba is our headless approach for Magento 2 to make developer easier for a frontend as you not dealing with the native clunky frontend provided with Magento 2 instead you are given a frontend that is using [Vue.js](https://vuejs.org/)
 
 It uses a set of other libraries ontop of Vue to provide a full Single Page Application approach where all data is sent through the frontend to Laravel acting as a middleman to:
 
