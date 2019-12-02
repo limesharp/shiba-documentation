@@ -47,3 +47,13 @@ export default (route, type, payload) => {
 ```
 
 ## Resolver 
+Whenever the user navigates to a page that isn't defined in a hardcoded route such as `/simple-product` or `/turmeric-yellow-sweater`
+
+This is passed into the resolver which returns a payload of `type` & `content`. 
+The resolver call on the backend will make a call to Magento first as `catalog` pages take priority. If nothing can be found then it will then use Wordpress as a fallback. 
+
+The use of a resolver means that we don't have to worry seeing if the URL is a product or a category on the frontend we can let the server do the look up for us.
+
+The resolver is also called on initial pageload based on the users URL. Which also returns the same payload object. 
+
+But in this instance it will be bound to the `Globals` object. 

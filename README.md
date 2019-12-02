@@ -19,6 +19,16 @@ The frontend is created using Vue and SASS which means we are using a modern fro
 * Animation in JS using [Anime.js](https://animejs.com/).
 
 ## The backend
+The backend is a combination of Laravel providing the middleman which interacts with Magento. This interacts with Magento via GrahpQL calls which allows data to be more flexible interms of what we request from Magento e.g. certain types of product data. 
+
+Laravel acts as an API for the frontend so that `Vue` can communicate with it via `axios`. 
+
+Laravel also acts as a caching layer which means it will store: 
+* Store Configuration
+* Catalog Data
+* Any other data that. 
+
+There are also cron jobs that will flush all of the stored cache on then refetch everything via the server.
 
 ## Useful tools
 * GraphQL UI for testing [Download Here](https://electronjs.org/apps/graphiql)
