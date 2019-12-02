@@ -8,3 +8,7 @@
 
 - Backend
   - [Structure](application-structure.md)
+
+- WordPress
+  - [Structure](wordpress.md)
+
