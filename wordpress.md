@@ -1,3 +1,0 @@
-# WordPress Documentation
-
-Comming soon!
