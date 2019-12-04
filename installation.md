@@ -48,7 +48,7 @@ Create a `magento-root/middleman/.env` file based on the `magento-root/middleman
 
 ### Packages
 
-Run `composer install` and then `npm install` in the `magento-root/middleman/` folder.
+Run `composer install`, `npm install`, and then `php artisan key:generate` in the `magento-root/middleman/` folder.
 
 ## Magento Configuration
 
