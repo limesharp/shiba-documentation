@@ -74,3 +74,7 @@ It will also use the `imageObject` component given `prop` to look for the image 
 The `src` of the `<img />` element will be the given `placeholder`, while the `data-src` will be the given `url` in the `imageObject`.
 
 Sirv logic will take care of the rest after that element is rendered or after you manually init it.
+
+## Back end
+
+The Magento `Limesharp_Sirv` module implements a `preference` for `Magento\CatalogGraphQl\Model\Resolver\Product\ProductImage\Url` in order to return over all GraphQL calls the Sirv URL instead of the Magento URL for all product images.
