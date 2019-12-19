@@ -19,3 +19,6 @@
         - [Hide / Show sections](cms/wordpress-template-styles.md)
         - [Creating sections content](cms/wordpress-template-sections.md)
     - [Vue](cms/vue.md)
+
+- Third-party integrations
+    - [Sirv](third-party-integrations/sirv.md)
